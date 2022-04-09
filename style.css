@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.game-grid {
+  /* width: 800px;
+  height: 800px; */
+  margin: auto;
+}
+.box {
+  background-color: #0f0;
+  /* width: 20px;
+  height: 20px; */
+  float: left;
+}
+.snake {
+  background-color: transparent;
+}
+.snake_head_up {
+  background-image: url("head_up.png");
+  background-size: 100%;
+  background-position: center;
+}
+.snake_head_down {
+  background-image: url("head_down.png");
+  background-size: 100%;
+  background-position: center;
+}
+.snake_head_left {
+  background-image: url("head_left.png");
+  background-size: 100%;
+  background-position: center;
+}
+.snake_head_right {
+  background-image: url("head_right.png");
+  background-size: 100%;
+  background-position: center;
+}
+.apple {
+  background-image: url("apple.png");
+  background-position: center;
+  background-size: 100%;
+}
+.score-board {
+  height: 100vh;
+}
+.ins-detail p span {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 15%;
+  margin: 25px;
+}
+.wall {
+  background-color: brown !important;
+}
